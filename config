@@ -1,7 +1,0 @@
-[config]
-url = https://demo.ctfd.io
-access_token = 825bc9d439429735c88aa20d965bbc40f53e616375d6d42fdacd8831dc20d9f2
-
-[challenges]
-challenge.yml = challenge.yml
-
