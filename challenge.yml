@@ -1,0 +1,8 @@
+name: My
+category: Web
+description: |
+  This is a simple web challenge.
+  Participants need to find the hidden flag on the webpage.
+
+points: 100
+flag: flag{example_flag}
