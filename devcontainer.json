@@ -1,0 +1,19 @@
+{
+    "name": "CTFcli DevContainer",
+    "image": "python:3.8",
+    "extensions": [],
+    "settings": {},
+    "containerEnv": {
+      "TERM": "xterm-256color"
+    },
+    "forwardPorts": [],
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "git clone https://github.com/FouadHamzeh/dev.git && pip install -r ctfcli/requirements.txt",
+    "runArgs": ["-u", "root", "-w", "/workspace"],
+    "remoteUser": "root",
+    "mounts": [
+      "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+    ]
+  }
+  
