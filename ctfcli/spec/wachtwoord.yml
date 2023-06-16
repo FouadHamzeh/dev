@@ -1,0 +1,18 @@
+# challenge.yml
+
+name: "Password Challenge"
+author: "Your Name"
+category: "Forensics"
+description: "Welcome to the Password Challenge! Your task is to find the user's password."
+value: 150
+type: standard
+
+flags:
+  - flag{P@ssw0rd123}
+
+files:
+  - dist/hints.txt
+
+hints:
+  - "Hint: The user's password can be found in the hints.txt file."
+

@@ -1,0 +1,18 @@
+# challenge.yml
+
+name: "hoi"
+author: "Your Name"
+category: "hola"
+description: "Welcome to the Simple Challenge! Your task is to find the secret flag."
+value: 100
+type: standard
+
+flags:
+  - flag{S1mpl3_CTF_Challenge}
+
+files:
+  - dist/readme.txt
+
+hints:
+  - "Hint: The flag is hidden in the readme.txt file."
+
